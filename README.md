@@ -110,8 +110,8 @@ math.html
     </div>
     </body>
     </html>
-    ```
-    views.py
+```
+views.py
 ```python
     
 from django.shortcuts import render
@@ -140,7 +140,7 @@ def surfacearea(request):
     
     return render(request, 'myapp/math.html', context)
 ```
-urls
+urls.py
 ```python
 
 from django.contrib import admin
